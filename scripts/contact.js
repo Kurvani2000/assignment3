@@ -4,8 +4,8 @@ submitButton.addEventListener("click", thankYouMessage);
 
 function thankYouMessage() {
     let thankYouMessageText = document.getElementById("contact-page");
-    thankYouMessageText.style.fontsize = "24px";
-    thankYouMessageText.innerHTML = "Thank you for your message";
+    thankYouMessageText.style.fontSize = "24px";
+    thankYouMessageText.innerHTML = "Thank you for your message!";
 }
 
 // hint: you can change the style of an element by modifying the value of that element's .style.fontSize, or by updating its .classList.
