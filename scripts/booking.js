@@ -3,7 +3,7 @@
 // Do any of these variables need to be initialized when the page is loaded? 
 // When do they need to be reset or updated?
 
-let costPerDay = 0;
+let costPerDay = 35;
 let numberOfDays = 0;
 let calculatedCost = document.getElementById("calculated-cost");
 
