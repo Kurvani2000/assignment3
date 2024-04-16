@@ -111,7 +111,7 @@ clearButton.addEventListener("click", clearButtonClick);
 // when the half-day button is clicked, set the daily rate to $20, add the "clicked" class to the "half" element, remove it from the "full" element, and recalculate the total cost.
 
 function halfButtonClick(){
-    costPerDay = 20
+    costPerDay = 20;
 
     halfButton.classList.add("clicked");
     fullButton.classList.remove("clicked");
@@ -125,7 +125,7 @@ halfButton.addEventListener("click", halfButtonClick);
 // when the full-day button is clicked, the daily rate is set back to $35, the clicked class is added to "full" and removed from "half", and the total cost is recalculated.
 
 function fullButtonClick(){
-    costPerDay = 35
+    costPerDay = 35;
 
     fullButton.classList.add("clicked");
     halfButton.classList.remove("clicked");
